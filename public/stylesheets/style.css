@@ -1,11 +1,11 @@
 body {
-	background-color: rgba(102, 151, 0, 0.2);
+	background-color: rgb(255, 255, 255);
 }
 
 nav.navbar-default {
   background-color: #075033;
   font color: white;
-      font-size: 1.5em;
+  font-size: 1.5em;
   height: 80px;
   padding: 10px;
 
@@ -16,17 +16,44 @@ nav.navbar-default {
 }
 
 
+
+
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   font-size: 2em;
   margin-left: 0px;
   color: white;
 }
 
-.navbar-inverse {
+/*//////////////  FOOTER ///////////////*/
+
+.navbar-footer {
   background-color: #075033;
-  height: 25px;
-  color: red;
+  color: white;
+  height: 40px;
+  margin-top: -5px;
 }
+.navbar-footer a{
+  color: white;
+}
+
+.navbar-footer ul{
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ul {
+  display:  inline-block;
+}
+
+/*.copy {
+  background-color: #075033;
+  padding: 0;
+  margin-top: 0px;
+} */
+
+
+/*///// BODY////////////*/
 
 div {
   padding-left: 20px;
