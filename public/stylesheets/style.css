@@ -1,15 +1,18 @@
+body {
+	background-color: rgba(102, 151, 0, 0.2);
+}
 
 nav.navbar-default {
-	background-color: #075033;
-	font color: white;
+  background-color: #075033;
+  font color: white;
       font-size: 1.5em;
-	height: 80px;
-	padding: 10px;
+  height: 80px;
+  padding: 10px;
 
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: white;
+  color: white;
 }
 
 
@@ -19,11 +22,18 @@ nav.navbar-default {
   color: white;
 }
 
+.navbar-inverse {
+  background-color: #075033;
+  height: 25px;
+  color: red;
+}
+
 div {
   padding-left: 20px;
   width: 50%;
 }
 
-/*body {
-	background-color: rgba(102, 151, 0, 0.2);
-}*/
+div.right {
+  float: right;
+}
+
