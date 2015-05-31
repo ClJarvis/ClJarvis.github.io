@@ -1,6 +1,10 @@
+/*html,body,.landing{ height: 100%; width: 100% ; }*/
+
 body {
-	background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
+
+
 
 nav.navbar-default {
   background-color: #075033;
@@ -11,11 +15,18 @@ nav.navbar-default {
 
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: white;
+a:hover {
+  color: #690;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  a:hover color: #690;
+}
 
+.navbar-default .navbar-nav a:hover, a:active {
+  color: #690;
+}
 
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -36,6 +47,10 @@ nav.navbar-default {
   color: white;
 }
 
+.navbar-footer a:hover, a:active {
+  color: #690;
+}
+
 .navbar-footer ul{
   display: inline-block;
   margin-right: auto;
@@ -46,7 +61,18 @@ nav.navbar-default {
   display:  inline-block;
 }
 
-/*.copy {
+/*.landing{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/cannon_and_chess.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+
+
+/*.copyright {
   background-color: #075033;
   padding: 0;
   margin-top: 0px;
@@ -55,12 +81,20 @@ nav.navbar-default {
 
 /*///// BODY////////////*/
 
+div.welcome {
+  padding: 20px;
+
+}
+
+div.about_me {
+  padding: 20px;
+}
+
 div {
   padding-left: 20px;
-  width: 50%;
+  padding-bottom: 10px;
 }
 
-div.right {
-  float: right;
+div.movieappimg {
+  width: 45%
 }
-
