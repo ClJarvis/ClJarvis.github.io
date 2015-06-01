@@ -1,0 +1,38 @@
+/*div{
+  border-style: solid;
+  border-color: red;
+}*/
+
+.screen_cap {
+  height: 100%;
+  width: 100%;
+}
+
+.screen_cap img {
+  height: 450px;
+  width: 450px;
+}
+
+
+
+/*
+div.atofImg{
+  float: left;
+}
+
+div.atofText {
+  float: right;
+  height: 450px;
+  width: 450px;
+}
+
+div.cahnaImg{
+  float: left;
+}
+
+div.cahnaText {
+  float: right;
+}*/
+
+
+

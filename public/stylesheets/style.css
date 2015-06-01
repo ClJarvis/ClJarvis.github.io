@@ -2,9 +2,12 @@
 
 body {
   background-color: rgb(255, 255, 255);
+  font-size: 1.75em;
+  background-image: url('images/cannon_and_chess.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
+/*////////////// NAV BAR////////////// */
 
 nav.navbar-default {
   background-color: #075033;
@@ -21,10 +24,9 @@ a:hover {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
-  a:hover color: #690;
 }
 
-.navbar-default .navbar-nav a:hover, a:active {
+.navbar-default .navbar-nav >li>a:hover, a:active, a:visited{
   color: #690;
 }
 
@@ -61,14 +63,14 @@ a:hover {
   display:  inline-block;
 }
 
-/*.landing{
+.landing{
   position: fixed;
   width: 100%;
   height: 100%;
   background-image: url('images/cannon_and_chess.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}*/
+}
 
 
 
@@ -83,7 +85,6 @@ a:hover {
 
 div.welcome {
   padding: 20px;
-
 }
 
 div.about_me {
@@ -95,6 +96,14 @@ div {
   padding-bottom: 10px;
 }
 
-div.movieappimg {
-  width: 45%
+
+.screen_cap {
+  height: 100%;
+  width: 100%;
 }
+
+.screen_cap img {
+  height: 450px;
+  width: 450px;
+}
+
