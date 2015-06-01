@@ -9,5 +9,7 @@ controllers.controller('AboutController', ['$scope', function($scope){
 }]);
 
 controllers.controller('PortfolioController', ['$scope', function($scope){
-	$scope.message = "My Portfolio";
+	$scope.message = "My Portfolio:";
+	$scope.heading = "Languages Used:";
+
 }]);
